@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital College</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        header {
+            background-color: #9842D9;
+            padding-bottom: 400px;
+        }
+
+        header h2 {
+            color: #fff;
+            background-color: #890783;
+            text-align: center;
+            font-weight: 500;
+            padding: 8px 0;
+        }
+
+        .block-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 80px 40px;
+        }
+
+        .block-content p {
+            max-width: 1000px;
+            margin-top: 50px;
+            font-weight: 600;
+        }
+
+        section {
+            padding-bottom: 100px;
+        }
+
+        .equipe__container {
+            display: flex;
+            justify-content: center;
+            gap: 26px;
+            margin-top: 40px;
+        }
+
+        .equipe {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #9E3899;
+        }
+
+        .circle-purple {
+            background-color: #9842D9;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+        }
+
+        .equipe h3 {
+            margin-top: 12px;
+        }
+
+        footer {
+            background-color: #890783;
+            color: #fff;
+            text-align: center;
+            padding: 24px 0;
+        }
+
+        /* Estilos reutilizáveis */
+
+        .block-content h2,
+        #equipe__section h2 {
+            text-align: center;
+            color: #9E3899;
+            padding-bottom: 5px;
+        }
+
+        span {
+            display: inline-block;
+            padding-bottom: 8px;
+            border-bottom: 4px solid #9842D9;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Digital College</h2>
+    </header>
+
+    <div class="block-content">
+        <h2>Dig<span>ital Colle</span>ge</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur venenatis odio ut gravida. Sed
+            lacinia id neque at mollis. Sed vitae felis scelerisque, scelerisque nulla sed, elementum urna. Pellentesque
+            a ultrices arcu. Vestibulum vel lorem at justo eleifend maximus sit amet in nunc. In ac erat id lorem ornare
+            blandit. Phasellus sollicitudin, purus consequat auctor elementum, dolor eros cursus sem, eget maximus
+            tellus turpis vel sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos. Aliquam convallis felis id molestie facilisis. Ut sodales dapibus sem, suscipit porta elit ornare
+            non. Cras vehicula nunc sed odio dictum efficitur. Maecenas tristique ornare pellentesque. Maecenas
+            tristique ornare pellentesque. Maecenas tristique ornare pellentesque.</p>
+    </div>
+
+    <section id="equipe__section">
+
+        <h2><span>Equipe</span></h2>
+
+        <div class="equipe__container">
+            <div class="equipe">
+                <div class="circle-purple"></div>
+                <h3>Team 1</h3>
+                <p>developer</p>
+            </div>
+
+            <div class="equipe">
+                <div class="circle-purple"></div>
+                <h3>Team 2</h3>
+                <p>developer</p>
+            </div>
+
+            <div class="equipe">
+                <div class="circle-purple"></div>
+                <h3>Team 3</h3>
+                <p>developer</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
