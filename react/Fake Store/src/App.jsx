@@ -1,11 +1,19 @@
-import "primeflex/primeflex.css"
-import "primeflex/themes/primeone-light.css"
-import Home from "./pages/Home";
+import "primeflex/primeflex.css";
+import "primeicons/primeicons.css";
+import "primereact/resources/themes/lara-light-blue/theme.css"
+import "primeflex/themes/primeone-light.css";
+import Paths from "./routes/Paths";
+import { AuthContext } from "./contexts/AuthContext";
+
 
 const App = () => {
 
   return (
-    <Home />
+    <>
+      <AuthContext>
+        <Paths />
+      </AuthContext>
+    </>
   );
 }
 
