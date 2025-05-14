@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import copoCode from "../assets/Copo_code.svg";
-// import bgHome from "../assets/bg_home.svg"
 
 const Home = () => {
     return (
@@ -18,7 +17,7 @@ const Home = () => {
             </div>
 
             <Link to={'/sobre'} className="bg-green-400 rounded p-2 w-3xs text-center uppercase font-bold">
-                <span>Conheça meu trabalho</span>
+                <span>Conhecer desenvolvedor</span>
             </Link>
         </section>
     );
