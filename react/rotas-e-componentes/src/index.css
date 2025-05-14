@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.active {
+  color: oklch(79.2% 0.209 151.711);
+}
+
+body {
+  margin: 0;
+}
